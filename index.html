@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0757c8">
+  <meta name="description" content="ScoreBuzz — worldwide cricket scores, fixtures, results and updates.">
+  <title>ScoreBuzz — Every Ball. Every Buzz.</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+<header class="topbar">
+  <a class="brand" href="#"><span class="brand-mark">S</span><span>Score<span class="blue">Buzz</span><small>EVERY BALL. EVERY BUZZ.</small></span></a>
+  <nav id="nav"><a class="active" href="#home">Home</a><a href="#matches">Matches</a><a href="#series">Series</a><a href="#news">News</a><a href="#stats">Stats</a></nav>
+  <button class="menu" id="menu" aria-label="Toggle menu">☰</button>
+</header>
+<main>
+<section class="hero" id="home">
+  <div class="hero-copy"><span class="eyebrow">WORLDWIDE CRICKET COVERAGE</span><h1>Cricket never<br><span>stops.</span></h1><p>Live match centre, fixtures, results and the stories behind every game — all in one place.</p><a class="button" href="#matches">Explore matches <b>→</b></a></div>
+  <div class="hero-ball"><div class="orbit"></div><div class="ball">🏏</div><div class="floating-score"><span class="live-dot"></span> MATCH CENTRE <b>LIVE</b><small>Follow every moment</small></div></div>
+</section>
+<div class="ticker"><span>● THE SCOREBUZZ UPDATE</span><p>Worldwide cricket, one destination. Follow international, franchise and domestic competitions.</p></div>
+<section class="section" id="matches">
+  <div class="section-head"><div><span class="eyebrow">FOLLOW THE ACTION</span><h2>Match centre</h2></div><span class="pill" id="feed-status">DEMO DATA</span></div>
+  <div class="filters"><button class="filter active" data-filter="ALL">All matches</button><button class="filter" data-filter="LIVE">● Live</button><button class="filter" data-filter="UPCOMING">Upcoming</button><button class="filter" data-filter="RESULT">Results</button></div>
+  <div class="match-grid" id="match-grid"><div class="loading">Loading match centre…</div></div>
+  <p class="disclaimer">Demo scores are illustrative and are not live match information.</p>
+</section>
+<section class="section series-section" id="series">
+  <div class="section-head"><div><span class="eyebrow">CRICKET AROUND THE WORLD</span><h2>Explore competitions</h2></div></div>
+  <div class="series-grid">
+    <article class="series-card"><span>🇮🇳</span><div><h3>Indian Premier League</h3><p>IPL · India</p></div><b>→</b></article>
+    <article class="series-card"><span>🌏</span><div><h3>International cricket</h3><p>Tests · ODIs · T20Is</p></div><b>→</b></article>
+    <article class="series-card"><span>🇦🇺</span><div><h3>Big Bash League</h3><p>BBL · Australia</p></div><b>→</b></article>
+    <article class="series-card"><span>🇵🇰</span><div><h3>Pakistan Super League</h3><p>PSL · Pakistan</p></div><b>→</b></article>
+    <article class="series-card"><span>🏏</span><div><h3>Women's cricket</h3><p>WPL · International</p></div><b>→</b></article>
+    <article class="series-card"><span>🌍</span><div><h3>Domestic cricket</h3><p>Leagues · tournaments</p></div><b>→</b></article>
+  </div>
+</section>
+<section class="feature-row" id="stats">
+  <div><span class="eyebrow">BUILT FOR EVERY FAN</span><h2>More than just<br><span>the score.</span></h2><p>Scorecards, ball-by-ball commentary, playing XIs, points tables and player statistics are planned modules for the next development stages.</p></div>
+  <div class="feature-list"><div><b>01</b><span><strong>Detailed scorecards</strong><small>Batting, bowling and fall of wickets</small></span></div><div><b>02</b><span><strong>Ball-by-ball commentary</strong><small>Follow every delivery as it happens</small></span></div><div><b>03</b><span><strong>Stats & leaderboards</strong><small>Players, teams and tournament tables</small></span></div><div><b>04</b><span><strong>Match alerts</strong><small>Important moments and match reminders</small></span></div></div>
+</section>
+<section class="section news" id="news"><div class="section-head"><div><span class="eyebrow">FROM THE CRICKET WORLD</span><h2>Latest cricket stories</h2></div></div><div class="news-box"><div class="news-icon">✦</div><div><h3>Cricket news is coming to ScoreBuzz</h3><p>News cards and editorial updates will appear here once a verified news source and publishing workflow are connected.</p></div><span class="pill">COMING SOON</span></div></section>
+</main>
+<footer><a class="brand footer-brand" href="#"><span class="brand-mark">S</span><span>Score<span class="blue">Buzz</span><small>EVERY BALL. EVERY BUZZ.</small></span></a><p>Worldwide cricket. One destination.</p><small>© 2026 ScoreBuzz. Demo website — live data integration pending.</small></footer>
+<script src="/app.js"></script>
+</body></html>
